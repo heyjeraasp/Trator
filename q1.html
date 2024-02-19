@@ -1,0 +1,81 @@
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        #container {
+            width: 600px;
+            height: 400px;
+            margin: 0 auto;
+            background-color: #333;
+            position: relative;
+        }
+
+        #content {
+            width: 500px;
+            height: 300px;
+            margin: 50px;
+            padding: 20px;
+            background-color: #fff;
+            border: 2px solid #ccc;
+            overflow: auto;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        #button {
+            width: 100px;
+            height: 40px;
+            margin: 20px auto;
+            display: block;
+            background-color: #f00;
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>jQuery Effects and Animation</h1>
+    <div id="container">
+        <div id="content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo quis nisi tincidunt lacinia. Fusce vitae nisl vitae lorem consequat sagittis. Morbi id sapien quis massa aliquet tincidunt. Donec nec felis quis augue sagittis malesuada. Cras sit amet lacus quis magna tincidunt tincidunt. Quisque quis nisl vitae massa ullamcorper tincidunt. In hac habitasse platea dictumst. Phasellus quis leo quis lorem ultrices tincidunt. Sed quis nisl quis lorem tincidunt tincidunt.</p>
+            <p>Nulla facilisi. Sed quis nisl quis lorem tincidunt tincidunt. In hac habitasse platea dictumst. Phasellus quis leo quis lorem ultrices tincidunt. Sed quis nisl quis lorem tincidunt tincidunt. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo quis nisi tincidunt lacinia. Fusce vitae nisl vitae lorem consequat sagittis. Morbi id sapien quis massa aliquet tincidunt. Donec nec felis quis augue sagittis malesuada. Cras sit amet lacus quis magna tincidunt tincidunt. Quisque quis nisl vitae massa ullamcorper tincidunt.</p>
+        </div>
+    </div>
+    <button id="button">Click Me</button>
+    <script>
+        $(document).ready(function() {
+            // Hide the content when the page loads
+            $("#content").hide();
+
+            // Fade in the content when the button is clicked
+            $("#button").click(function() {
+                $("#content").fadeIn(2000);
+            });
+
+            // Animate the content to scroll up and down when the content is hovered
+            $("#content").hover(function() {
+                $(this).animate({
+                    scrollTop: $(this).prop("scrollHeight") - $(this).height()
+                }, 2000);
+            }, function() {
+                // Reset the content to its original position when the hover ends
+                $(this).animate({
+                    scrollTop: 0
+                }, 2000);
+            });
+        });
+    </script>
+</body>
+</html>
+

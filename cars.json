@@ -1,0 +1,59 @@
+
+    [
+        {
+          "car_id": 1,
+          "car_name": "Toyoqta Camry",
+          "product_img1": "toyota camary 2.jpeg",
+          "product_img2": "toyota camary1.jpeg",
+          "rent_per_day": 70,
+          "parent_id": 0,
+          "type":" Luxury Sedan"
+        },
+        {
+          "car_id": 2,
+          "car_name": "Honda Civic",
+          "product_img1": "HONDA CIVIC 1.JPEG",
+          "product_img2": "honda civic 2.JPEG",
+          "rent_per_day": 32,
+          "parent_id": 0,
+          "type":"city Class Sedan"
+        },
+        {
+          "car_id": 3,
+          "car_name": "Ford Mustang",
+          "product_img1": "ford mustang 2.jpeg",
+          "product_img2": "ford mustang 1.jpeg",
+          "rent_per_day": 35,
+          "parent_id": 0,
+          "type":"Sports Muscle"
+        },
+        {
+          "car_id": 4,
+          "car_name": "Nissan Altima",
+          "product_img1": "NISSAN ALTIMA 2.jpeg",
+          "product_img2": "NISSAN ALTIMA 1.jpeg",
+          "rent_per_day": 23,
+          "parent_id": 0,
+          "type":"Compact Sedan"
+        },
+        {
+          "car_id": 5,
+          "car_name": "Chevrolet Malibu",
+          "product_img1": "CHEVROLET MALIBU 1.jpeg",
+          "product_img2": "CHEVROLET MALIBU 2.jpeg",
+          "rent_per_day": 60,
+          "parent_id": 0,
+          "type":"luxury"
+        },
+        {
+          "car_id": 6,
+          "car_name": "Volkswagen Jetta",
+          "product_img1": "VOLKSWAGEN JETTA 1.jpeg",
+          "product_img2": "VOLKSWAGEN JETTA 2.jpeg",
+          "rent_per_day": 48,
+          "parent_id": 0,
+          "type":"Compact Sedan"
+        }
+    ]
+
+    

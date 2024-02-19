@@ -1,0 +1,55 @@
+[
+    {
+        "cid":1,
+        "cname":"Tata",
+        "cpid":0
+    },
+
+    {
+        "cid":2,
+        "cname":"Mahindra",
+        "cpid":0
+    },
+
+    {
+        "cid":3,
+        "cname":"Maruti",
+        "cpid":0
+    },
+
+    {
+        "cid":4,
+        "cname":"SUV",
+        "cpid":1
+    },
+
+    {
+        "cid":5,
+        "cname":"Classic",
+        "cpid":1
+    },
+
+    {
+        "cid":6,
+        "cname":"SUV",
+        "cpid":2
+    },
+
+    {
+        "cid":7,
+        "cname":"Sport",
+        "cpid":2
+    },
+
+    {
+        "cid":8,
+        "cname":"Private",
+        "cpid":3
+    },
+
+    {
+        "cid":9,
+        "cname":"Taxi",
+        "cpid":3
+    }
+]
